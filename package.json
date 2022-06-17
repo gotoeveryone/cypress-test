@@ -1,0 +1,29 @@
+{
+  "name": "cypress-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "cypress open",
+    "test": "cypress run",
+    "lint": "eslint --ext .js cypress",
+    "format": "npm run lint -- --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gotoeveryone/cypress-test.git"
+  },
+  "author": "gotoeveryone",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gotoeveryone/cypress-test/issues"
+  },
+  "homepage": "https://github.com/gotoeveryone/cypress-test#readme",
+  "dependencies": {
+    "cypress": "^10.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-plugin-cypress": "^2.12.1"
+  }
+}

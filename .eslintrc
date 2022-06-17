@@ -1,0 +1,12 @@
+{
+  "extends": [
+    "plugin:cypress/recommended"
+  ],
+  "plugins": [
+    "cypress"
+  ],
+  "rules": {
+    "comma-dangle": ["error", "always-multiline"],
+    "semi": ["error", "always"]
+  }
+}
